@@ -1,0 +1,35 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimHyeok457/wetube-reladed.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec npx babel-node src/init.js"
+  },
+  "author": "David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KimHyeok457/wetube-reladed/issues"
+  },
+  "homepage": "https://github.com/KimHyeok457/wetube-reladed#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.5",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "nodemon": "^2.0.15"
+  }
+}
